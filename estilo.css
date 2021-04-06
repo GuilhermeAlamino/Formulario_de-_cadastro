@@ -1,0 +1,97 @@
+.header{
+    width:100%;
+    color:#fff;
+    background-image: linear-gradient(#0575e6, #021b79, transparent), url(./Fundo-Azul-site-DTSWAY-azul-degrade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.header .row{
+    padding:2% 0;
+}
+
+.text-box{
+    margin-top:15%;
+    margin-bottom:5%;
+}
+
+.text-box h1{
+    margin-bottom:25px;
+}
+
+.text-box p{
+    margin-bottom:35px;
+}
+
+.text-box .link{
+    padding:12px 30px;
+    background-color: #021b79;
+    color:#fff;
+    border-radius:0px;
+    border: none;
+
+}
+
+.text-box .link:hover{
+    background-color:#fff;
+    color:#021b79;
+}
+
+.main-form{
+    width:350px;
+    background-color:#fff;
+    margin:10px auto;
+    border-radius:3px;
+}
+
+.title-box{
+    background: linear-gradient(to right, #0575e6, #021b79);
+    height:100px;
+    padding-top:20px;
+    border-bottom-right-radius: 75px 15px;
+    border-bottom-left-radius: 75px 15px;
+}
+
+form label{
+    float:left;
+    margin-left:37px;
+    color:#999;
+    margin-top:15px;
+    margin-bottom:3px;
+    font-size:14px;
+}
+
+.input-box{
+    width:280px;
+    height:36px;
+    padding:0 5px;
+    border:1px solid#ccc;
+    border-radius:3px;
+    color:#999;
+    margin:5px;
+}
+
+.submit-btn{
+    background-color: #6d6d6d;
+    color:#fff;
+    border-radius:3px;
+    border: none;
+    cursor:pointer;
+    width:280px;
+    height:30px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.submit-btn:hover{
+    background-color:#021b79;
+    color:#fff;
+}
+
+#msg{
+    margin-top:15px;
+    margin-bottom:15px;
+    padding-top:15px;
+    display:none;
+}
